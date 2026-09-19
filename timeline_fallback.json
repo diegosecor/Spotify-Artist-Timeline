@@ -1,0 +1,657 @@
+{
+  "metadata": {
+    "description": "Fallback historical timeline data for Global Artist Timeline & Peak Explorer",
+    "data_source": "Curated historical chart data and streaming metrics",
+    "last_updated": "2026-09-19",
+    "note": "This data is used when Spotify API is unavailable. Each timeline entry includes a 'top_tracks' list of the 2 most notable singles from that album, each with a 'spotify_url' that opens a Spotify search for the track (guaranteed to resolve even without a verified track ID)."
+  },
+  "artists": {
+    "Beyoncé": {
+      "id": "beyonce",
+      "genres": ["r&b", "pop", "soul"],
+      "career_start": 1997,
+      "timeline": [
+        {"year": 2003, "album": "Dangerously in Love", "popularity": 85, "peak_score": 92, "streams": 600000000,
+         "top_tracks": [
+           {"name": "Crazy in Love", "popularity": 95, "spotify_url": "https://open.spotify.com/search/Beyonce%20Crazy%20in%20Love"},
+           {"name": "Baby Boy", "popularity": 86, "spotify_url": "https://open.spotify.com/search/Beyonce%20Baby%20Boy"}
+         ]},
+        {"year": 2008, "album": "I Am... Sasha Fierce", "popularity": 90, "peak_score": 96, "streams": 850000000,
+         "top_tracks": [
+           {"name": "Single Ladies (Put a Ring on It)", "popularity": 92, "spotify_url": "https://open.spotify.com/search/Beyonce%20Single%20Ladies"},
+           {"name": "Halo", "popularity": 93, "spotify_url": "https://open.spotify.com/search/Beyonce%20Halo"}
+         ]},
+        {"year": 2011, "album": "4", "popularity": 80, "peak_score": 86, "streams": 450000000,
+         "top_tracks": [
+           {"name": "Love On Top", "popularity": 88, "spotify_url": "https://open.spotify.com/search/Beyonce%20Love%20On%20Top"},
+           {"name": "Run the World (Girls)", "popularity": 82, "spotify_url": "https://open.spotify.com/search/Beyonce%20Run%20the%20World"}
+         ]},
+        {"year": 2016, "album": "Lemonade", "popularity": 93, "peak_score": 97, "streams": 900000000,
+         "top_tracks": [
+           {"name": "Formation", "popularity": 87, "spotify_url": "https://open.spotify.com/search/Beyonce%20Formation"},
+           {"name": "Sorry", "popularity": 84, "spotify_url": "https://open.spotify.com/search/Beyonce%20Sorry"}
+         ]},
+        {"year": 2022, "album": "Renaissance", "popularity": 94, "peak_score": 98, "streams": 950000000,
+         "top_tracks": [
+           {"name": "CUFF IT", "popularity": 91, "spotify_url": "https://open.spotify.com/search/Beyonce%20CUFF%20IT"},
+           {"name": "BREAK MY SOUL", "popularity": 89, "spotify_url": "https://open.spotify.com/search/Beyonce%20BREAK%20MY%20SOUL"}
+         ]},
+        {"year": 2024, "album": "Cowboy Carter", "popularity": 92, "peak_score": 96, "streams": 800000000,
+         "top_tracks": [
+           {"name": "TEXAS HOLD 'EM", "popularity": 90, "spotify_url": "https://open.spotify.com/search/Beyonce%20TEXAS%20HOLD%20EM"},
+           {"name": "II MOST WANTED", "popularity": 83, "spotify_url": "https://open.spotify.com/search/Beyonce%20II%20MOST%20WANTED"}
+         ]}
+      ],
+      "top_tracks": [
+        {"name": "Crazy in Love", "popularity": 95, "streams": 1500000000, "spotify_url": "https://open.spotify.com/search/Beyonce%20Crazy%20in%20Love"},
+        {"name": "Halo", "popularity": 93, "streams": 1400000000, "spotify_url": "https://open.spotify.com/search/Beyonce%20Halo"},
+        {"name": "Single Ladies (Put a Ring on It)", "popularity": 92, "streams": 1200000000, "spotify_url": "https://open.spotify.com/search/Beyonce%20Single%20Ladies"},
+        {"name": "CUFF IT", "popularity": 91, "streams": 1000000000, "spotify_url": "https://open.spotify.com/search/Beyonce%20CUFF%20IT"},
+        {"name": "TEXAS HOLD 'EM", "popularity": 90, "streams": 900000000, "spotify_url": "https://open.spotify.com/search/Beyonce%20TEXAS%20HOLD%20EM"},
+        {"name": "BREAK MY SOUL", "popularity": 89, "streams": 850000000, "spotify_url": "https://open.spotify.com/search/Beyonce%20BREAK%20MY%20SOUL"},
+        {"name": "Love On Top", "popularity": 88, "streams": 800000000, "spotify_url": "https://open.spotify.com/search/Beyonce%20Love%20On%20Top"},
+        {"name": "Formation", "popularity": 87, "streams": 700000000, "spotify_url": "https://open.spotify.com/search/Beyonce%20Formation"}
+      ]
+    },
+    "Kendrick Lamar": {
+      "id": "kendrick_lamar",
+      "genres": ["hip hop", "conscious rap", "west coast rap"],
+      "career_start": 2004,
+      "timeline": [
+        {"year": 2011, "album": "Section.80", "popularity": 62, "peak_score": 72, "streams": 200000000,
+         "top_tracks": [
+           {"name": "A.D.H.D", "popularity": 74, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20ADHD"},
+           {"name": "Rigamortus", "popularity": 66, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20Rigamortus"}
+         ]},
+        {"year": 2012, "album": "good kid, m.A.A.d city", "popularity": 90, "peak_score": 96, "streams": 900000000,
+         "top_tracks": [
+           {"name": "Money Trees", "popularity": 90, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20Money%20Trees"},
+           {"name": "Swimming Pools (Drank)", "popularity": 88, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20Swimming%20Pools"}
+         ]},
+        {"year": 2015, "album": "To Pimp a Butterfly", "popularity": 88, "peak_score": 95, "streams": 750000000,
+         "top_tracks": [
+           {"name": "Alright", "popularity": 86, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20Alright"},
+           {"name": "King Kunta", "popularity": 84, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20King%20Kunta"}
+         ]},
+        {"year": 2017, "album": "DAMN.", "popularity": 96, "peak_score": 99, "streams": 1300000000,
+         "top_tracks": [
+           {"name": "HUMBLE.", "popularity": 97, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20HUMBLE"},
+           {"name": "DNA.", "popularity": 91, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20DNA"}
+         ]},
+        {"year": 2022, "album": "Mr. Morale & The Big Steppers", "popularity": 89, "peak_score": 94, "streams": 700000000,
+         "top_tracks": [
+           {"name": "N95", "popularity": 85, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20N95"},
+           {"name": "Die Hard", "popularity": 83, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20Die%20Hard"}
+         ]},
+        {"year": 2024, "album": "GNX", "popularity": 95, "peak_score": 98, "streams": 1100000000,
+         "top_tracks": [
+           {"name": "luther", "popularity": 94, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20luther"},
+           {"name": "squabble up", "popularity": 89, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20squabble%20up"}
+         ]}
+      ],
+      "top_tracks": [
+        {"name": "HUMBLE.", "popularity": 97, "streams": 1600000000, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20HUMBLE"},
+        {"name": "Not Like Us", "popularity": 98, "streams": 1500000000, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20Not%20Like%20Us"},
+        {"name": "luther", "popularity": 94, "streams": 1200000000, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20luther"},
+        {"name": "DNA.", "popularity": 91, "streams": 1100000000, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20DNA"},
+        {"name": "Money Trees", "popularity": 90, "streams": 1000000000, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20Money%20Trees"},
+        {"name": "All The Stars", "popularity": 89, "streams": 950000000, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20All%20The%20Stars"},
+        {"name": "Alright", "popularity": 86, "streams": 800000000, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20Alright"},
+        {"name": "N95", "popularity": 85, "streams": 700000000, "spotify_url": "https://open.spotify.com/search/Kendrick%20Lamar%20N95"}
+      ]
+    },
+    "Karol G": {
+      "id": "karol_g",
+      "genres": ["reggaeton", "latin pop", "urbano latino"],
+      "career_start": 2006,
+      "timeline": [
+        {"year": 2017, "album": "Unstoppable", "popularity": 62, "peak_score": 72, "streams": 180000000,
+         "top_tracks": [
+           {"name": "Ahora Me Llama", "popularity": 74, "spotify_url": "https://open.spotify.com/search/Karol%20G%20Ahora%20Me%20Llama"},
+           {"name": "Casi Nada", "popularity": 60, "spotify_url": "https://open.spotify.com/search/Karol%20G%20Casi%20Nada"}
+         ]},
+        {"year": 2019, "album": "Ocean", "popularity": 74, "peak_score": 82, "streams": 350000000,
+         "top_tracks": [
+           {"name": "Punto G", "popularity": 72, "spotify_url": "https://open.spotify.com/search/Karol%20G%20Punto%20G"},
+           {"name": "Creeme", "popularity": 68, "spotify_url": "https://open.spotify.com/search/Karol%20G%20Creeme"}
+         ]},
+        {"year": 2021, "album": "KG0516", "popularity": 88, "peak_score": 93, "streams": 700000000,
+         "top_tracks": [
+           {"name": "Bichota", "popularity": 90, "spotify_url": "https://open.spotify.com/search/Karol%20G%20Bichota"},
+           {"name": "Tusa", "popularity": 96, "spotify_url": "https://open.spotify.com/search/Karol%20G%20Tusa"}
+         ]},
+        {"year": 2023, "album": "Manana Sera Bonito", "popularity": 97, "peak_score": 99, "streams": 1200000000,
+         "top_tracks": [
+           {"name": "TQG", "popularity": 94, "spotify_url": "https://open.spotify.com/search/Karol%20G%20TQG"},
+           {"name": "Provenza", "popularity": 95, "spotify_url": "https://open.spotify.com/search/Karol%20G%20Provenza"}
+         ]}
+      ],
+      "top_tracks": [
+        {"name": "Tusa", "popularity": 96, "streams": 1400000000, "spotify_url": "https://open.spotify.com/search/Karol%20G%20Tusa"},
+        {"name": "Provenza", "popularity": 95, "streams": 1100000000, "spotify_url": "https://open.spotify.com/search/Karol%20G%20Provenza"},
+        {"name": "TQG", "popularity": 94, "streams": 1000000000, "spotify_url": "https://open.spotify.com/search/Karol%20G%20TQG"},
+        {"name": "Bichota", "popularity": 90, "streams": 900000000, "spotify_url": "https://open.spotify.com/search/Karol%20G%20Bichota"},
+        {"name": "Si Antes Te Hubiera Conocido", "popularity": 92, "streams": 850000000, "spotify_url": "https://open.spotify.com/search/Karol%20G%20Si%20Antes%20Te%20Hubiera%20Conocido"},
+        {"name": "Ahora Me Llama", "popularity": 74, "streams": 700000000, "spotify_url": "https://open.spotify.com/search/Karol%20G%20Ahora%20Me%20Llama"},
+        {"name": "Mi Cama", "popularity": 76, "streams": 650000000, "spotify_url": "https://open.spotify.com/search/Karol%20G%20Mi%20Cama"},
+        {"name": "Contigo", "popularity": 85, "streams": 600000000, "spotify_url": "https://open.spotify.com/search/Karol%20G%20Contigo"}
+      ]
+    },
+    "Rosalía": {
+      "id": "rosalia",
+      "genres": ["flamenco pop", "experimental pop", "urbano latino"],
+      "career_start": 2017,
+      "timeline": [
+        {"year": 2017, "album": "Los Angeles", "popularity": 55, "peak_score": 66, "streams": 90000000,
+         "top_tracks": [
+           {"name": "Catalina", "popularity": 54, "spotify_url": "https://open.spotify.com/search/Rosalia%20Catalina"},
+           {"name": "De Plata", "popularity": 50, "spotify_url": "https://open.spotify.com/search/Rosalia%20De%20Plata"}
+         ]},
+        {"year": 2018, "album": "El Mal Querer", "popularity": 82, "peak_score": 90, "streams": 420000000,
+         "top_tracks": [
+           {"name": "Malamente", "popularity": 86, "spotify_url": "https://open.spotify.com/search/Rosalia%20Malamente"},
+           {"name": "Pienso en tu mira", "popularity": 82, "spotify_url": "https://open.spotify.com/search/Rosalia%20Pienso%20en%20tu%20mira"}
+         ]},
+        {"year": 2022, "album": "Motomami", "popularity": 90, "peak_score": 95, "streams": 780000000,
+         "top_tracks": [
+           {"name": "Despecha", "popularity": 91, "spotify_url": "https://open.spotify.com/search/Rosalia%20Despecha"},
+           {"name": "La Fama", "popularity": 84, "spotify_url": "https://open.spotify.com/search/Rosalia%20La%20Fama"}
+         ]},
+        {"year": 2025, "album": "Lux", "popularity": 87, "peak_score": 92, "streams": 500000000,
+         "top_tracks": [
+           {"name": "Berghain", "popularity": 85, "spotify_url": "https://open.spotify.com/search/Rosalia%20Berghain"},
+           {"name": "La Perla", "popularity": 82, "spotify_url": "https://open.spotify.com/search/Rosalia%20La%20Perla"}
+         ]}
+      ],
+      "top_tracks": [
+        {"name": "Despecha", "popularity": 91, "streams": 900000000, "spotify_url": "https://open.spotify.com/search/Rosalia%20Despecha"},
+        {"name": "Con Altura", "popularity": 89, "streams": 1000000000, "spotify_url": "https://open.spotify.com/search/Rosalia%20Con%20Altura"},
+        {"name": "Malamente", "popularity": 86, "streams": 700000000, "spotify_url": "https://open.spotify.com/search/Rosalia%20Malamente"},
+        {"name": "Berghain", "popularity": 85, "streams": 400000000, "spotify_url": "https://open.spotify.com/search/Rosalia%20Berghain"},
+        {"name": "TKN", "popularity": 84, "streams": 650000000, "spotify_url": "https://open.spotify.com/search/Rosalia%20TKN"},
+        {"name": "La Fama", "popularity": 84, "streams": 600000000, "spotify_url": "https://open.spotify.com/search/Rosalia%20La%20Fama"},
+        {"name": "Pienso en tu mira", "popularity": 82, "streams": 550000000, "spotify_url": "https://open.spotify.com/search/Rosalia%20Pienso%20en%20tu%20mira"},
+        {"name": "Bizcochito", "popularity": 78, "streams": 450000000, "spotify_url": "https://open.spotify.com/search/Rosalia%20Bizcochito"}
+      ]
+    },
+    "Travis Scott": {
+      "id": "travis_scott",
+      "genres": ["hip hop", "rap", "trap"],
+      "career_start": 2013,
+      "timeline": [
+        {"year": 2015, "album": "Rodeo", "popularity": 80, "peak_score": 88, "streams": 500000000,
+         "top_tracks": [
+           {"name": "Antidote", "popularity": 90, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%20Antidote"},
+           {"name": "3500", "popularity": 74, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%203500"}
+         ]},
+        {"year": 2016, "album": "Birds in the Trap Sing McKnight", "popularity": 84, "peak_score": 90, "streams": 600000000,
+         "top_tracks": [
+           {"name": "Goosebumps", "popularity": 94, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%20Goosebumps"},
+           {"name": "through the late night", "popularity": 76, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%20through%20the%20late%20night"}
+         ]},
+        {"year": 2018, "album": "Astroworld", "popularity": 96, "peak_score": 99, "streams": 1300000000,
+         "top_tracks": [
+           {"name": "SICKO MODE", "popularity": 97, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%20SICKO%20MODE"},
+           {"name": "STARGAZING", "popularity": 85, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%20STARGAZING"}
+         ]},
+        {"year": 2023, "album": "Utopia", "popularity": 93, "peak_score": 97, "streams": 1000000000,
+         "top_tracks": [
+           {"name": "FE!N", "popularity": 93, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%20FEIN"},
+           {"name": "MELTDOWN", "popularity": 87, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%20MELTDOWN"}
+         ]}
+      ],
+      "top_tracks": [
+        {"name": "SICKO MODE", "popularity": 97, "streams": 1600000000, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%20SICKO%20MODE"},
+        {"name": "Goosebumps", "popularity": 94, "streams": 1500000000, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%20Goosebumps"},
+        {"name": "FE!N", "popularity": 93, "streams": 1100000000, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%20FEIN"},
+        {"name": "Antidote", "popularity": 90, "streams": 1200000000, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%20Antidote"},
+        {"name": "Highest in the Room", "popularity": 92, "streams": 1300000000, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%20Highest%20in%20the%20Room"},
+        {"name": "MELTDOWN", "popularity": 87, "streams": 800000000, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%20MELTDOWN"},
+        {"name": "STARGAZING", "popularity": 85, "streams": 750000000, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%20STARGAZING"},
+        {"name": "Butterfly Effect", "popularity": 88, "streams": 900000000, "spotify_url": "https://open.spotify.com/search/Travis%20Scott%20Butterfly%20Effect"}
+      ]
+    },
+    "Taylor Swift": {
+      "id": "taylor_swift",
+      "genres": ["pop", "country", "folk"],
+      "career_start": 2006,
+      "timeline": [
+        {"year": 2006, "album": "Taylor Swift", "popularity": 45, "peak_score": 65, "streams": 50000000,
+         "top_tracks": [
+           {"name": "Tim McGraw", "popularity": 58, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Tim%20McGraw"},
+           {"name": "Teardrops on My Guitar", "popularity": 62, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Teardrops%20on%20My%20Guitar"}
+         ]},
+        {"year": 2008, "album": "Fearless", "popularity": 78, "peak_score": 85, "streams": 200000000,
+         "top_tracks": [
+           {"name": "Love Story", "popularity": 88, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Love%20Story"},
+           {"name": "You Belong with Me", "popularity": 86, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20You%20Belong%20with%20Me"}
+         ]},
+        {"year": 2010, "album": "Speak Now", "popularity": 82, "peak_score": 88, "streams": 300000000,
+         "top_tracks": [
+           {"name": "Mine", "popularity": 80, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Mine"},
+           {"name": "Back to December", "popularity": 76, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Back%20to%20December"}
+         ]},
+        {"year": 2012, "album": "Red", "popularity": 85, "peak_score": 92, "streams": 450000000,
+         "top_tracks": [
+           {"name": "I Knew You Were Trouble", "popularity": 89, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20I%20Knew%20You%20Were%20Trouble"},
+           {"name": "22", "popularity": 84, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%2022"}
+         ]},
+        {"year": 2014, "album": "1989", "popularity": 95, "peak_score": 98, "streams": 600000000,
+         "top_tracks": [
+           {"name": "Shake It Off", "popularity": 95, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Shake%20It%20Off"},
+           {"name": "Blank Space", "popularity": 93, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Blank%20Space"}
+         ]},
+        {"year": 2017, "album": "Reputation", "popularity": 88, "peak_score": 94, "streams": 750000000,
+         "top_tracks": [
+           {"name": "Look What You Made Me Do", "popularity": 90, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Look%20What%20You%20Made%20Me%20Do"},
+           {"name": "Delicate", "popularity": 85, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Delicate"}
+         ]},
+        {"year": 2019, "album": "Lover", "popularity": 90, "peak_score": 96, "streams": 850000000,
+         "top_tracks": [
+           {"name": "Cruel Summer", "popularity": 94, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Cruel%20Summer"},
+           {"name": "Lover", "popularity": 87, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Lover"}
+         ]},
+        {"year": 2020, "album": "folklore", "popularity": 92, "peak_score": 97, "streams": 1000000000,
+         "top_tracks": [
+           {"name": "cardigan", "popularity": 91, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20cardigan"},
+           {"name": "exile", "popularity": 87, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20exile"}
+         ]},
+        {"year": 2020, "album": "evermore", "popularity": 89, "peak_score": 95, "streams": 900000000,
+         "top_tracks": [
+           {"name": "willow", "popularity": 88, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20willow"},
+           {"name": "champagne problems", "popularity": 84, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20champagne%20problems"}
+         ]},
+        {"year": 2021, "album": "Fearless (Taylor's Version)", "popularity": 87, "peak_score": 93, "streams": 800000000,
+         "top_tracks": [
+           {"name": "Love Story (Taylor's Version)", "popularity": 85, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Love%20Story%20Taylor%27s%20Version"},
+           {"name": "You All Over Me (Taylor's Version)", "popularity": 74, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20You%20All%20Over%20Me"}
+         ]},
+        {"year": 2021, "album": "Red (Taylor's Version)", "popularity": 91, "peak_score": 96, "streams": 950000000,
+         "top_tracks": [
+           {"name": "All Too Well (10 Minute Version)", "popularity": 92, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20All%20Too%20Well%2010%20Minute%20Version"},
+           {"name": "I Knew You Were Trouble (Taylor's Version)", "popularity": 86, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20I%20Knew%20You%20Were%20Trouble%20Taylor%27s%20Version"}
+         ]},
+        {"year": 2022, "album": "Midnights", "popularity": 100, "peak_score": 100, "streams": 1200000000,
+         "top_tracks": [
+           {"name": "Anti-Hero", "popularity": 100, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Anti-Hero"},
+           {"name": "Lavender Haze", "popularity": 90, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Lavender%20Haze"}
+         ]}
+      ],
+      "top_tracks": [
+        {"name": "Anti-Hero", "popularity": 100, "streams": 1500000000, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Anti-Hero"},
+        {"name": "Shake It Off", "popularity": 95, "streams": 1200000000, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Shake%20It%20Off"},
+        {"name": "Blank Space", "popularity": 93, "streams": 1100000000, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Blank%20Space"},
+        {"name": "Love Story", "popularity": 89, "streams": 1000000000, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Love%20Story"},
+        {"name": "Cruel Summer", "popularity": 94, "streams": 980000000, "spotify_url": "https://open.spotify.com/search/Taylor%20Swift%20Cruel%20Summer"}
+      ]
+    },
+    "Drake": {
+      "id": "drake",
+      "genres": ["hip-hop", "rap", "r&b"],
+      "career_start": 2009,
+      "timeline": [
+        {"year": 2009, "album": "So Far Gone", "popularity": 55, "peak_score": 70, "streams": 80000000,
+         "top_tracks": [
+           {"name": "Best I Ever Had", "popularity": 72, "spotify_url": "https://open.spotify.com/search/Drake%20Best%20I%20Ever%20Had"},
+           {"name": "Successful", "popularity": 60, "spotify_url": "https://open.spotify.com/search/Drake%20Successful"}
+         ]},
+        {"year": 2010, "album": "Thank Me Later", "popularity": 75, "peak_score": 82, "streams": 150000000,
+         "top_tracks": [
+           {"name": "Find Your Love", "popularity": 78, "spotify_url": "https://open.spotify.com/search/Drake%20Find%20Your%20Love"},
+           {"name": "Over", "popularity": 74, "spotify_url": "https://open.spotify.com/search/Drake%20Over"}
+         ]},
+        {"year": 2011, "album": "Take Care", "popularity": 85, "peak_score": 90, "streams": 400000000,
+         "top_tracks": [
+           {"name": "Marvins Room", "popularity": 84, "spotify_url": "https://open.spotify.com/search/Drake%20Marvins%20Room"},
+           {"name": "Take Care", "popularity": 82, "spotify_url": "https://open.spotify.com/search/Drake%20Take%20Care"}
+         ]},
+        {"year": 2013, "album": "Nothing Was the Same", "popularity": 88, "peak_score": 92, "streams": 500000000,
+         "top_tracks": [
+           {"name": "Hold On, We're Going Home", "popularity": 87, "spotify_url": "https://open.spotify.com/search/Drake%20Hold%20On%20We%27re%20Going%20Home"},
+           {"name": "Started From the Bottom", "popularity": 85, "spotify_url": "https://open.spotify.com/search/Drake%20Started%20From%20the%20Bottom"}
+         ]},
+        {"year": 2015, "album": "If You're Reading This It's Too Late", "popularity": 82, "peak_score": 87, "streams": 450000000,
+         "top_tracks": [
+           {"name": "Energy", "popularity": 80, "spotify_url": "https://open.spotify.com/search/Drake%20Energy"},
+           {"name": "Legend", "popularity": 76, "spotify_url": "https://open.spotify.com/search/Drake%20Legend"}
+         ]},
+        {"year": 2016, "album": "Views", "popularity": 95, "peak_score": 98, "streams": 800000000,
+         "top_tracks": [
+           {"name": "One Dance", "popularity": 96, "spotify_url": "https://open.spotify.com/search/Drake%20One%20Dance"},
+           {"name": "Hotline Bling", "popularity": 94, "spotify_url": "https://open.spotify.com/search/Drake%20Hotline%20Bling"}
+         ]},
+        {"year": 2017, "album": "More Life", "popularity": 90, "peak_score": 94, "streams": 700000000,
+         "top_tracks": [
+           {"name": "Passionfruit", "popularity": 88, "spotify_url": "https://open.spotify.com/search/Drake%20Passionfruit"},
+           {"name": "Portland", "popularity": 79, "spotify_url": "https://open.spotify.com/search/Drake%20Portland"}
+         ]},
+        {"year": 2018, "album": "Scorpion", "popularity": 97, "peak_score": 99, "streams": 1000000000,
+         "top_tracks": [
+           {"name": "God's Plan", "popularity": 98, "spotify_url": "https://open.spotify.com/search/Drake%20God%27s%20Plan"},
+           {"name": "In My Feelings", "popularity": 93, "spotify_url": "https://open.spotify.com/search/Drake%20In%20My%20Feelings"}
+         ]},
+        {"year": 2020, "album": "Dark Lane Demo Tapes", "popularity": 78, "peak_score": 83, "streams": 400000000,
+         "top_tracks": [
+           {"name": "Toosie Slide", "popularity": 82, "spotify_url": "https://open.spotify.com/search/Drake%20Toosie%20Slide"},
+           {"name": "When to Say When", "popularity": 70, "spotify_url": "https://open.spotify.com/search/Drake%20When%20to%20Say%20When"}
+         ]},
+        {"year": 2021, "album": "Certified Lover Boy", "popularity": 92, "peak_score": 96, "streams": 950000000,
+         "top_tracks": [
+           {"name": "Way 2 Sexy", "popularity": 87, "spotify_url": "https://open.spotify.com/search/Drake%20Way%202%20Sexy"},
+           {"name": "Girls Want Girls", "popularity": 82, "spotify_url": "https://open.spotify.com/search/Drake%20Girls%20Want%20Girls"}
+         ]},
+        {"year": 2022, "album": "Honestly, Nevermind", "popularity": 85, "peak_score": 89, "streams": 650000000,
+         "top_tracks": [
+           {"name": "Massive", "popularity": 78, "spotify_url": "https://open.spotify.com/search/Drake%20Massive"},
+           {"name": "Falling Back", "popularity": 76, "spotify_url": "https://open.spotify.com/search/Drake%20Falling%20Back"}
+         ]}
+      ],
+      "top_tracks": [
+        {"name": "God's Plan", "popularity": 98, "streams": 1400000000, "spotify_url": "https://open.spotify.com/search/Drake%20God%27s%20Plan"},
+        {"name": "One Dance", "popularity": 96, "streams": 1300000000, "spotify_url": "https://open.spotify.com/search/Drake%20One%20Dance"},
+        {"name": "Hotline Bling", "popularity": 94, "streams": 1100000000, "spotify_url": "https://open.spotify.com/search/Drake%20Hotline%20Bling"},
+        {"name": "In My Feelings", "popularity": 93, "streams": 1050000000, "spotify_url": "https://open.spotify.com/search/Drake%20In%20My%20Feelings"},
+        {"name": "Toosie Slide", "popularity": 82, "streams": 900000000, "spotify_url": "https://open.spotify.com/search/Drake%20Toosie%20Slide"}
+      ]
+    },
+    "Bad Bunny": {
+      "id": "bad_bunny",
+      "genres": ["reggaeton", "latin trap", "latin"],
+      "career_start": 2016,
+      "timeline": [
+        {"year": 2016, "album": "Singles Era", "popularity": 35, "peak_score": 50, "streams": 20000000,
+         "top_tracks": [
+           {"name": "Diles", "popularity": 45, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Diles"},
+           {"name": "Soy Peor", "popularity": 48, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Soy%20Peor"}
+         ]},
+        {"year": 2018, "album": "X 100PRE", "popularity": 75, "peak_score": 85, "streams": 300000000,
+         "top_tracks": [
+           {"name": "Mia", "popularity": 80, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Mia"},
+           {"name": "Estamos Bien", "popularity": 76, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Estamos%20Bien"}
+         ]},
+        {"year": 2020, "album": "YHLQMDLG", "popularity": 90, "peak_score": 95, "streams": 800000000,
+         "top_tracks": [
+           {"name": "Safaera", "popularity": 88, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Safaera"},
+           {"name": "Yo Perreo Sola", "popularity": 85, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Yo%20Perreo%20Sola"}
+         ]},
+        {"year": 2020, "album": "Las que no iban a salir", "popularity": 85, "peak_score": 90, "streams": 500000000,
+         "top_tracks": [
+           {"name": "La Difícil", "popularity": 83, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20La%20Dificil"},
+           {"name": "Vete", "popularity": 79, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Vete"}
+         ]},
+        {"year": 2020, "album": "El Último Tour Del Mundo", "popularity": 88, "peak_score": 92, "streams": 700000000,
+         "top_tracks": [
+           {"name": "Dakiti", "popularity": 95, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Dakiti"},
+           {"name": "Booker T", "popularity": 82, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Booker%20T"}
+         ]},
+        {"year": 2022, "album": "Un Verano Sin Ti", "popularity": 100, "peak_score": 100, "streams": 1500000000,
+         "top_tracks": [
+           {"name": "Me Porto Bonito", "popularity": 100, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Me%20Porto%20Bonito"},
+           {"name": "Tití Me Preguntó", "popularity": 98, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Titi%20Me%20Pregunto"}
+         ]}
+      ],
+      "top_tracks": [
+        {"name": "Me Porto Bonito", "popularity": 100, "streams": 1200000000, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Me%20Porto%20Bonito"},
+        {"name": "Tití Me Preguntó", "popularity": 98, "streams": 1100000000, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Titi%20Me%20Pregunto"},
+        {"name": "Dakiti", "popularity": 95, "streams": 1000000000, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Dakiti"},
+        {"name": "Safaera", "popularity": 88, "streams": 850000000, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Safaera"},
+        {"name": "Mia", "popularity": 80, "streams": 700000000, "spotify_url": "https://open.spotify.com/search/Bad%20Bunny%20Mia"}
+      ]
+    },
+    "The Weeknd": {
+      "id": "the_weeknd",
+      "genres": ["r&b", "pop", "alternative r&b"],
+      "career_start": 2010,
+      "timeline": [
+        {"year": 2011, "album": "House of Balloons", "popularity": 60, "peak_score": 75, "streams": 100000000,
+         "top_tracks": [
+           {"name": "Wicked Games", "popularity": 68, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Wicked%20Games"},
+           {"name": "The Morning", "popularity": 62, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20The%20Morning"}
+         ]},
+        {"year": 2011, "album": "Thursday", "popularity": 55, "peak_score": 70, "streams": 80000000,
+         "top_tracks": [
+           {"name": "The Zone", "popularity": 58, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20The%20Zone"},
+           {"name": "Rolling Stone", "popularity": 54, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Rolling%20Stone"}
+         ]},
+        {"year": 2011, "album": "Echoes of Silence", "popularity": 58, "peak_score": 72, "streams": 90000000,
+         "top_tracks": [
+           {"name": "D.D.", "popularity": 56, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20D.D."},
+           {"name": "Montreal", "popularity": 52, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Montreal"}
+         ]},
+        {"year": 2012, "album": "Trilogy", "popularity": 70, "peak_score": 80, "streams": 200000000,
+         "top_tracks": [
+           {"name": "Wicked Games", "popularity": 68, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Wicked%20Games"},
+           {"name": "The Morning", "popularity": 64, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20The%20Morning"}
+         ]},
+        {"year": 2015, "album": "Beauty Behind the Madness", "popularity": 88, "peak_score": 93, "streams": 600000000,
+         "top_tracks": [
+           {"name": "Can't Feel My Face", "popularity": 90, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Can%27t%20Feel%20My%20Face"},
+           {"name": "The Hills", "popularity": 92, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20The%20Hills"}
+         ]},
+        {"year": 2016, "album": "Starboy", "popularity": 92, "peak_score": 96, "streams": 800000000,
+         "top_tracks": [
+           {"name": "Starboy", "popularity": 93, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Starboy"},
+           {"name": "I Feel It Coming", "popularity": 86, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20I%20Feel%20It%20Coming"}
+         ]},
+        {"year": 2018, "album": "My Dear Melancholy,", "popularity": 78, "peak_score": 85, "streams": 400000000,
+         "top_tracks": [
+           {"name": "Call Out My Name", "popularity": 84, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Call%20Out%20My%20Name"},
+           {"name": "Wasted Times", "popularity": 74, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Wasted%20Times"}
+         ]},
+        {"year": 2020, "album": "After Hours", "popularity": 95, "peak_score": 98, "streams": 1100000000,
+         "top_tracks": [
+           {"name": "Blinding Lights", "popularity": 100, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Blinding%20Lights"},
+           {"name": "Save Your Tears", "popularity": 91, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Save%20Your%20Tears"}
+         ]},
+        {"year": 2022, "album": "Dawn FM", "popularity": 85, "peak_score": 90, "streams": 700000000,
+         "top_tracks": [
+           {"name": "Sacrifice", "popularity": 83, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Sacrifice"},
+           {"name": "Take My Breath", "popularity": 81, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Take%20My%20Breath"}
+         ]}
+      ],
+      "top_tracks": [
+        {"name": "Blinding Lights", "popularity": 100, "streams": 1800000000, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Blinding%20Lights"},
+        {"name": "The Hills", "popularity": 92, "streams": 1200000000, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20The%20Hills"},
+        {"name": "Starboy", "popularity": 93, "streams": 1150000000, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Starboy"},
+        {"name": "Can't Feel My Face", "popularity": 90, "streams": 1000000000, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Can%27t%20Feel%20My%20Face"},
+        {"name": "Save Your Tears", "popularity": 91, "streams": 950000000, "spotify_url": "https://open.spotify.com/search/The%20Weeknd%20Save%20Your%20Tears"}
+      ]
+    },
+    "Michael Jackson": {
+      "id": "michael_jackson",
+      "genres": ["pop", "r&b", "soul", "funk"],
+      "career_start": 1971,
+      "timeline": [
+        {"year": 1972, "album": "Ben", "popularity": 45, "peak_score": 60, "streams": 50000000,
+         "top_tracks": [
+           {"name": "Ben", "popularity": 55, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Ben"},
+           {"name": "People Make the World Go Round", "popularity": 40, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20People%20Make%20the%20World%20Go%20Round"}
+         ]},
+        {"year": 1979, "album": "Off the Wall", "popularity": 75, "peak_score": 85, "streams": 300000000,
+         "top_tracks": [
+           {"name": "Don't Stop 'Til You Get Enough", "popularity": 82, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Don%27t%20Stop%20Til%20You%20Get%20Enough"},
+           {"name": "Rock with You", "popularity": 80, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Rock%20with%20You"}
+         ]},
+        {"year": 1982, "album": "Thriller", "popularity": 100, "peak_score": 100, "streams": 1500000000,
+         "top_tracks": [
+           {"name": "Billie Jean", "popularity": 100, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Billie%20Jean"},
+           {"name": "Beat It", "popularity": 98, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Beat%20It"}
+         ]},
+        {"year": 1987, "album": "Bad", "popularity": 92, "peak_score": 96, "streams": 800000000,
+         "top_tracks": [
+           {"name": "Smooth Criminal", "popularity": 91, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Smooth%20Criminal"},
+           {"name": "Bad", "popularity": 87, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Bad"}
+         ]},
+        {"year": 1991, "album": "Dangerous", "popularity": 88, "peak_score": 92, "streams": 600000000,
+         "top_tracks": [
+           {"name": "Black or White", "popularity": 86, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Black%20or%20White"},
+           {"name": "Remember the Time", "popularity": 80, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Remember%20the%20Time"}
+         ]},
+        {"year": 1995, "album": "HIStory", "popularity": 85, "peak_score": 90, "streams": 500000000,
+         "top_tracks": [
+           {"name": "You Are Not Alone", "popularity": 82, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20You%20Are%20Not%20Alone"},
+           {"name": "Earth Song", "popularity": 78, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Earth%20Song"}
+         ]},
+        {"year": 2001, "album": "Invincible", "popularity": 70, "peak_score": 78, "streams": 200000000,
+         "top_tracks": [
+           {"name": "You Rock My World", "popularity": 72, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20You%20Rock%20My%20World"},
+           {"name": "Butterflies", "popularity": 60, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Butterflies"}
+         ]}
+      ],
+      "top_tracks": [
+        {"name": "Billie Jean", "popularity": 100, "streams": 1600000000, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Billie%20Jean"},
+        {"name": "Beat It", "popularity": 98, "streams": 1400000000, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Beat%20It"},
+        {"name": "Thriller", "popularity": 96, "streams": 1200000000, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Thriller"},
+        {"name": "Smooth Criminal", "popularity": 91, "streams": 1050000000, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Smooth%20Criminal"},
+        {"name": "Don't Stop 'Til You Get Enough", "popularity": 82, "streams": 900000000, "spotify_url": "https://open.spotify.com/search/Michael%20Jackson%20Don%27t%20Stop%20Til%20You%20Get%20Enough"}
+      ]
+    },
+    "Daft Punk": {
+      "id": "daft_punk",
+      "genres": ["electronic", "house", "disco"],
+      "career_start": 1993,
+      "timeline": [
+        {"year": 1997, "album": "Homework", "popularity": 65, "peak_score": 75, "streams": 150000000,
+         "top_tracks": [
+           {"name": "Around the World", "popularity": 74, "spotify_url": "https://open.spotify.com/search/Daft%20Punk%20Around%20the%20World"},
+           {"name": "Da Funk", "popularity": 68, "spotify_url": "https://open.spotify.com/search/Daft%20Punk%20Da%20Funk"}
+         ]},
+        {"year": 2001, "album": "Discovery", "popularity": 85, "peak_score": 92, "streams": 500000000,
+         "top_tracks": [
+           {"name": "One More Time", "popularity": 92, "spotify_url": "https://open.spotify.com/search/Daft%20Punk%20One%20More%20Time"},
+           {"name": "Harder, Better, Faster, Stronger", "popularity": 88, "spotify_url": "https://open.spotify.com/search/Daft%20Punk%20Harder%20Better%20Faster%20Stronger"}
+         ]},
+        {"year": 2005, "album": "Human After All", "popularity": 70, "peak_score": 78, "streams": 200000000,
+         "top_tracks": [
+           {"name": "Robot Rock", "popularity": 73, "spotify_url": "https://open.spotify.com/search/Daft%20Punk%20Robot%20Rock"},
+           {"name": "Human After All", "popularity": 65, "spotify_url": "https://open.spotify.com/search/Daft%20Punk%20Human%20After%20All"}
+         ]},
+        {"year": 2013, "album": "Random Access Memories", "popularity": 90, "peak_score": 95, "streams": 800000000,
+         "top_tracks": [
+           {"name": "Get Lucky", "popularity": 95, "spotify_url": "https://open.spotify.com/search/Daft%20Punk%20Get%20Lucky"},
+           {"name": "Instant Crush", "popularity": 84, "spotify_url": "https://open.spotify.com/search/Daft%20Punk%20Instant%20Crush"}
+         ]}
+      ],
+      "top_tracks": [
+        {"name": "Get Lucky", "popularity": 95, "streams": 1300000000, "spotify_url": "https://open.spotify.com/search/Daft%20Punk%20Get%20Lucky"},
+        {"name": "One More Time", "popularity": 92, "streams": 1100000000, "spotify_url": "https://open.spotify.com/search/Daft%20Punk%20One%20More%20Time"},
+        {"name": "Harder, Better, Faster, Stronger", "popularity": 88, "streams": 900000000, "spotify_url": "https://open.spotify.com/search/Daft%20Punk%20Harder%20Better%20Faster%20Stronger"},
+        {"name": "Around the World", "popularity": 74, "streams": 700000000, "spotify_url": "https://open.spotify.com/search/Daft%20Punk%20Around%20the%20World"},
+        {"name": "Instant Crush", "popularity": 84, "streams": 650000000, "spotify_url": "https://open.spotify.com/search/Daft%20Punk%20Instant%20Crush"}
+      ]
+    },
+    "BTS": {
+      "id": "bts",
+      "genres": ["k-pop", "pop", "hip-hop"],
+      "career_start": 2013,
+      "timeline": [
+        {"year": 2013, "album": "2 Cool 4 Skool", "popularity": 40, "peak_score": 55, "streams": 30000000,
+         "top_tracks": [
+           {"name": "No More Dream", "popularity": 48, "spotify_url": "https://open.spotify.com/search/BTS%20No%20More%20Dream"},
+           {"name": "We Are Bulletproof Pt.2", "popularity": 44, "spotify_url": "https://open.spotify.com/search/BTS%20We%20Are%20Bulletproof%20Pt2"}
+         ]},
+        {"year": 2014, "album": "Dark & Wild", "popularity": 50, "peak_score": 65, "streams": 80000000,
+         "top_tracks": [
+           {"name": "Danger", "popularity": 55, "spotify_url": "https://open.spotify.com/search/BTS%20Danger"},
+           {"name": "War of Hormone", "popularity": 50, "spotify_url": "https://open.spotify.com/search/BTS%20War%20of%20Hormone"}
+         ]},
+        {"year": 2016, "album": "Wings", "popularity": 75, "peak_score": 85, "streams": 400000000,
+         "top_tracks": [
+           {"name": "Blood Sweat & Tears", "popularity": 80, "spotify_url": "https://open.spotify.com/search/BTS%20Blood%20Sweat%20%26%20Tears"},
+           {"name": "Spring Day", "popularity": 82, "spotify_url": "https://open.spotify.com/search/BTS%20Spring%20Day"}
+         ]},
+        {"year": 2017, "album": "Love Yourself: Her", "popularity": 85, "peak_score": 92, "streams": 600000000,
+         "top_tracks": [
+           {"name": "DNA", "popularity": 87, "spotify_url": "https://open.spotify.com/search/BTS%20DNA"},
+           {"name": "MIC Drop", "popularity": 83, "spotify_url": "https://open.spotify.com/search/BTS%20MIC%20Drop"}
+         ]},
+        {"year": 2018, "album": "Love Yourself: Tear", "popularity": 92, "peak_score": 97, "streams": 800000000,
+         "top_tracks": [
+           {"name": "Fake Love", "popularity": 90, "spotify_url": "https://open.spotify.com/search/BTS%20Fake%20Love"},
+           {"name": "Airplane pt.2", "popularity": 80, "spotify_url": "https://open.spotify.com/search/BTS%20Airplane%20pt2"}
+         ]},
+        {"year": 2019, "album": "Map of the Soul: Persona", "popularity": 95, "peak_score": 98, "streams": 1000000000,
+         "top_tracks": [
+           {"name": "Boy With Luv", "popularity": 95, "spotify_url": "https://open.spotify.com/search/BTS%20Boy%20With%20Luv"},
+           {"name": "Mikrokosmos", "popularity": 82, "spotify_url": "https://open.spotify.com/search/BTS%20Mikrokosmos"}
+         ]},
+        {"year": 2020, "album": "Map of the Soul: 7", "popularity": 90, "peak_score": 95, "streams": 900000000,
+         "top_tracks": [
+           {"name": "ON", "popularity": 87, "spotify_url": "https://open.spotify.com/search/BTS%20ON"},
+           {"name": "Black Swan", "popularity": 84, "spotify_url": "https://open.spotify.com/search/BTS%20Black%20Swan"}
+         ]},
+        {"year": 2020, "album": "BE", "popularity": 88, "peak_score": 93, "streams": 700000000,
+         "top_tracks": [
+           {"name": "Dynamite", "popularity": 100, "spotify_url": "https://open.spotify.com/search/BTS%20Dynamite"},
+           {"name": "Life Goes On", "popularity": 85, "spotify_url": "https://open.spotify.com/search/BTS%20Life%20Goes%20On"}
+         ]}
+      ],
+      "top_tracks": [
+        {"name": "Dynamite", "popularity": 100, "streams": 1400000000, "spotify_url": "https://open.spotify.com/search/BTS%20Dynamite"},
+        {"name": "Butter", "popularity": 98, "streams": 1200000000, "spotify_url": "https://open.spotify.com/search/BTS%20Butter"},
+        {"name": "Boy With Luv", "popularity": 95, "streams": 1100000000, "spotify_url": "https://open.spotify.com/search/BTS%20Boy%20With%20Luv"},
+        {"name": "Fake Love", "popularity": 90, "streams": 950000000, "spotify_url": "https://open.spotify.com/search/BTS%20Fake%20Love"},
+        {"name": "Spring Day", "popularity": 82, "streams": 900000000, "spotify_url": "https://open.spotify.com/search/BTS%20Spring%20Day"}
+      ]
+    },
+    "Shakira": {
+      "id": "shakira",
+      "genres": ["latin pop", "pop", "world music"],
+      "career_start": 1990,
+      "timeline": [
+        {"year": 1991, "album": "Magia", "popularity": 25, "peak_score": 40, "streams": 20000000,
+         "top_tracks": [
+           {"name": "Magia", "popularity": 22, "spotify_url": "https://open.spotify.com/search/Shakira%20Magia"},
+           {"name": "Ojos Así (early version)", "popularity": 20, "spotify_url": "https://open.spotify.com/search/Shakira%20Ojos%20Asi"}
+         ]},
+        {"year": 1995, "album": "Pies Descalzos", "popularity": 60, "peak_score": 75, "streams": 150000000,
+         "top_tracks": [
+           {"name": "Estoy Aquí", "popularity": 65, "spotify_url": "https://open.spotify.com/search/Shakira%20Estoy%20Aqui"},
+           {"name": "Un Poco de Amor", "popularity": 58, "spotify_url": "https://open.spotify.com/search/Shakira%20Un%20Poco%20de%20Amor"}
+         ]},
+        {"year": 1998, "album": "Dónde Están los Ladrones?", "popularity": 70, "peak_score": 82, "streams": 200000000,
+         "top_tracks": [
+           {"name": "Ojos Así", "popularity": 75, "spotify_url": "https://open.spotify.com/search/Shakira%20Ojos%20Asi"},
+           {"name": "Tú", "popularity": 68, "spotify_url": "https://open.spotify.com/search/Shakira%20Tu"}
+         ]},
+        {"year": 2001, "album": "Laundry Service", "popularity": 85, "peak_score": 90, "streams": 500000000,
+         "top_tracks": [
+           {"name": "Whenever, Wherever", "popularity": 90, "spotify_url": "https://open.spotify.com/search/Shakira%20Whenever%20Wherever"},
+           {"name": "Underneath Your Clothes", "popularity": 82, "spotify_url": "https://open.spotify.com/search/Shakira%20Underneath%20Your%20Clothes"}
+         ]},
+        {"year": 2005, "album": "Fijación Oral, Vol. 1", "popularity": 75, "peak_score": 82, "streams": 300000000,
+         "top_tracks": [
+           {"name": "La Tortura", "popularity": 80, "spotify_url": "https://open.spotify.com/search/Shakira%20La%20Tortura"},
+           {"name": "No", "popularity": 68, "spotify_url": "https://open.spotify.com/search/Shakira%20No"}
+         ]},
+        {"year": 2009, "album": "She Wolf", "popularity": 70, "peak_score": 78, "streams": 250000000,
+         "top_tracks": [
+           {"name": "She Wolf", "popularity": 74, "spotify_url": "https://open.spotify.com/search/Shakira%20She%20Wolf"},
+           {"name": "Did It Again", "popularity": 65, "spotify_url": "https://open.spotify.com/search/Shakira%20Did%20It%20Again"}
+         ]},
+        {"year": 2010, "album": "Sale el Sol", "popularity": 80, "peak_score": 85, "streams": 400000000,
+         "top_tracks": [
+           {"name": "Waka Waka (This Time for Africa)", "popularity": 88, "spotify_url": "https://open.spotify.com/search/Shakira%20Waka%20Waka"},
+           {"name": "Loca", "popularity": 76, "spotify_url": "https://open.spotify.com/search/Shakira%20Loca"}
+         ]},
+        {"year": 2014, "album": "Shakira", "popularity": 75, "peak_score": 82, "streams": 350000000,
+         "top_tracks": [
+           {"name": "Can't Remember to Forget You", "popularity": 74, "spotify_url": "https://open.spotify.com/search/Shakira%20Can%27t%20Remember%20to%20Forget%20You"},
+           {"name": "Dare (La La La)", "popularity": 70, "spotify_url": "https://open.spotify.com/search/Shakira%20Dare%20La%20La%20La"}
+         ]},
+        {"year": 2017, "album": "El Dorado", "popularity": 78, "peak_score": 85, "streams": 450000000,
+         "top_tracks": [
+           {"name": "Chantaje", "popularity": 84, "spotify_url": "https://open.spotify.com/search/Shakira%20Chantaje"},
+           {"name": "Me Enamoré", "popularity": 76, "spotify_url": "https://open.spotify.com/search/Shakira%20Me%20Enamore"}
+         ]}
+      ],
+      "top_tracks": [
+        {"name": "Hips Don't Lie", "popularity": 95, "streams": 1300000000, "spotify_url": "https://open.spotify.com/search/Shakira%20Hips%20Don%27t%20Lie"},
+        {"name": "Whenever, Wherever", "popularity": 90, "streams": 1000000000, "spotify_url": "https://open.spotify.com/search/Shakira%20Whenever%20Wherever"},
+        {"name": "Waka Waka (This Time for Africa)", "popularity": 88, "streams": 900000000, "spotify_url": "https://open.spotify.com/search/Shakira%20Waka%20Waka"},
+        {"name": "Chantaje", "popularity": 84, "streams": 800000000, "spotify_url": "https://open.spotify.com/search/Shakira%20Chantaje"},
+        {"name": "La Tortura", "popularity": 80, "streams": 700000000, "spotify_url": "https://open.spotify.com/search/Shakira%20La%20Tortura"}
+      ]
+    }
+  }
+}
