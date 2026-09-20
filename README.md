@@ -4,6 +4,8 @@
 
 Global Artist Timeline & Peak Explorer is an interactive Pygame dashboard for exploring artist career trajectories. Users can search Spotify artists, view historical popularity charts, inspect albums and tracks, and compare up to six artists. The project uses the Spotify Web API for live artist discovery and a curated local dataset for historical timelines.
 
+![Global Artist Timeline dashboard](1.png)
+
 ## API
 
 The app uses `spotipy` with Spotify's OAuth 2.0 Client Credentials flow. Artist searches call `sp.search(q=query, type='artist', limit=10)` and parse the JSON response as nested Python dictionaries and lists, including artist IDs, names, genres, and images. Spotify search is live and was tested online with 134 unique artist results from multiple queries. Historical charts and curated track lists come from `timeline_fallback.json` because the current Development Mode access tier may restrict follower, popularity, and top-track fields.
